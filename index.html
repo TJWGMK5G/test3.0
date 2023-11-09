@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Roboto+Slab:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-logo">
+                <div class="header-logo__img">
+                    <img src="./img/logo.svg" alt="alt">
+                </div>
+                <div class="header-logo__text">Сократика</div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container">
+        <div class="main-container">
+            <div class="main__picture">
+                <img src="./img/Illustration.jpg" alt="alt">
+            </div>
+            <div class="main-content">
+                <div class="main-content__title">01 Заполни форму</div>
+                <form class="form">
+                    <div class="form-lessons">
+                        <div class="form-lessons-group">
+                            <label class="form-lessons-group__title">Тема урока</label>
+                            <input placeholder="Напиши что-то конкретное" type="text" class="form-lessons-group__input">
+                            <svg class="form-lessons-group__clear" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                <path d="M11.2014 6.87164L6.87126 11.2018" stroke="#343434" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M11.2033 11.2041L6.86868 6.86945" stroke="#343434" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.695312 9.03639C0.695312 2.78092 2.78107 0.69516 9.03655 0.69516C15.292 0.69516 17.3778 2.78092 17.3778 9.03639C17.3778 15.2919 15.292 17.3776 9.03655 17.3776C2.78107 17.3776 0.695312 15.2919 0.695312 9.03639Z" stroke="#343434" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="class-group">
+                            <label class="class-group__title">Класс</label>
+                            <div class="select">
+                                <div class="select__wrapper">
+                                    <div class="select__header">
+                                        <span class="select__current">4</span>
+                                    </div>
+                                    <div class="select__icon">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                        <path d="M19.9201 8.94984L13.4001 15.4698C12.6301 16.2398 11.3701 16.2398 10.6001 15.4698L4.08008 8.94984" stroke="#343434" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="select__body">
+                                    <div class="select__item">1</div>
+                                    <div class="select__item">2</div>
+                                    <div class="select__item">3</div>
+                                    <div class="select__item">4</div>
+                                    <div class="select__item">5</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-tags">
+                        <div class="form-tags__name">
+                            <div class="form-tags__item">Генетика</div>
+                            <div class="form-tags__item">Анатомия человека</div>
+                            <div class="form-tags__item">Вулканы</div>
+                            <div class="form-tags__item">Зимние виды спорта</div>
+                            <div class="form-tags__item">Радуга</div>
+                            <div class="form-tags__item">Индийская культура</div>
+                            <div class="form-tags__item form-tags__item-hidden">Радуга</div>
+                            <div class="form-tags__item form-tags__item-hidden">Пеший туризм</div>
+                            <div class="form-tags__item form-tags__item-hidden">Философия</div>
+                            <div class="form-tags__item form-tags__item-hidden">Вселенная</div>
+                            <div class="form-tags__item form-tags__item-hidden">Здоровые привычки</div>
+                            <div class="form-tags__item form-tags__item-hidden">Бабочки</div>
+                            <div class="form-tags__item form-tags__item-hidden">Белые медведи</div>
+                            <div class="form-tags__item form-tags__item-hidden">Экономика</div>
+                            <div class="form-tags__item form-tags__item-hidden">Финансовая грамотность</div>
+                            <div class="form-tags__item form-tags__item-hidden">Фотосинтез</div>
+                        </div>
+                        <div class="form-tags__more">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M6 12H18" stroke="#3CA9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 18V6" stroke="#3CA9F0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg> 
+                          Показать больше вариантов
+                        </div>
+                    </div>
+                    <div class="form-objective">
+                        <label class="form-objective__title">Цель урока</label>
+                        <textarea rows="3" placeholder="Напиши свою учебную цель" type="text" class="form-objective__input"></textarea>
+                        <div class="form-objective__numb">
+                            <div class="form-objective__wrapper">
+                                <div class="error-text">Enter your name</div>
+                                <div class="buttons-wrapper">
+                                    <span class="current">0</span> 
+                                        / 
+                                    <span class="total">200</span>
+                                </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="form-buttons">
+                        <button class="form-buttons__back">Назад</button>
+                        <button disabled class="form-buttons__next">Следующий шаг</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer class="footer"></footer>
+</div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+
